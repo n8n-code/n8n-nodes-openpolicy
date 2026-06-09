@@ -8,14 +8,14 @@ import { configApiDescription } from './resources/config-api';
 
 export class Openpolicy implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: 'openpolicy',
+		displayName: 'Openpolicy',
 		name: 'N8nDevOpenpolicy',
 		icon: { light: 'file:./openpolicy.png', dark: 'file:./openpolicy.dark.png' },
 		group: ['input'],
 		version: 1,
 		subtitle: '={{\$parameter["operation"] + ": " + \$parameter["resource"]}}',
 		description: 'OPA provides policy-based control for cloud native environments. The following endpoints (such as PUT /v1/policies) provide reference documentation for the OPA REST API',
-		defaults: { name: 'openpolicy' },
+		defaults: { name: 'Openpolicy' },
 		usableAsTool: true,
 		inputs: [NodeConnectionTypes.Main],
 		outputs: [NodeConnectionTypes.Main],

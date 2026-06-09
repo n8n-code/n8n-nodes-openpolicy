@@ -53,14 +53,57 @@ That's it. No configuration files. No code. It just works.
 
 ## Resources
 
-| Resource | Operations |
-|----------|------------|
-| Policy API | Get list policies, Delete a policy module, Get a policy module, Put create or update a policy module |
-| Data API | Post get a document with webhook, Delete a document, Get a document, Patch update a document, Post get a document with input, Put create or overwrite a document |
-| Query API | Post execute a simple query, Get execute an adhoc query simple, Post execute an adhoc query complex |
-| Compile API | Post compile |
-| Health API | Get health |
-| Config API | Get configurations |
+<details>
+<summary><b>Policy API</b> (4 operations)</summary>
+
+- Get List policies
+- Delete a policy module
+- Get a policy module
+- Put Create or update a policy module
+
+</details>
+
+<details>
+<summary><b>Data API</b> (6 operations)</summary>
+
+- Post Get a document with WEBHOOK
+- Delete a document
+- Get a document
+- Patch Update a document
+- Post Get a document with input
+- Put Create or overwrite a document
+
+</details>
+
+<details>
+<summary><b>Query API</b> (3 operations)</summary>
+
+- Post Execute a simple query
+- Get Execute an ad hoc query simple
+- Post Execute an ad hoc query complex
+
+</details>
+
+<details>
+<summary><b>Compile API</b> (1 operations)</summary>
+
+- Post Compile
+
+</details>
+
+<details>
+<summary><b>Health API</b> (1 operations)</summary>
+
+- Get Health
+
+</details>
+
+<details>
+<summary><b>Config API</b> (1 operations)</summary>
+
+- Get configurations
+
+</details>
 
 ---
 

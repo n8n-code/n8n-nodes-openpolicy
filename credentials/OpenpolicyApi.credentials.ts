@@ -8,7 +8,7 @@ import type {
 export class OpenpolicyApi implements ICredentialType {
 	name = 'N8nDevOpenpolicyApi';
 
-	displayName = 'openpolicy API';
+	displayName = 'Openpolicy API';
 
 	icon: Icon = { light: 'file:../nodes/Openpolicy/openpolicy.png', dark: 'file:../nodes/Openpolicy/openpolicy.dark.png' };
 
@@ -22,7 +22,7 @@ export class OpenpolicyApi implements ICredentialType {
 			default: 'http://openpolicy.local',
 			required: true,
 			placeholder: 'http://openpolicy.local',
-			description: 'The base URL of your openpolicy API server',
+			description: 'The base URL of your Openpolicy API server',
 		},
 		{
 			displayName: 'API Key',

@@ -1,6 +1,6 @@
 {
   "name": "@n8n-dev/n8n-nodes-openpolicy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OPA provides policy-based control for cloud native environments. The following endpoints (such as PUT /v1/policies) provide reference documentation for the OPA REST API",
   "license": "MIT",
   "homepage": "https://n8n-code.github.io/n8n-dev/#/n8n-nodes-openpolicy",
@@ -11,7 +11,7 @@
     "n8n-community-node-package",
     "openapi",
     "swagger",
-    "api",
+    "API",
     "automation",
     "workflow",
     "openpolicy"
